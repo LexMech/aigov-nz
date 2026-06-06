@@ -20,6 +20,7 @@ bundle.html
 CLAUDE.md
 .claude/
 *.docx
+*.pdf
 claude skills/
 
 # Boilerplate assets not used in the app
