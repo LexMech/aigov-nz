@@ -5,6 +5,7 @@ import AssessmentPage from './pages/AssessmentPage';
 import ResultsPage from './pages/ResultsPage';
 import AdminPage from './pages/AdminPage';
 import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 function App() {
   const store = useAppStore();
@@ -16,6 +17,7 @@ function App() {
     case 'results': return <ResultsPage store={store} />;
     case 'admin': return <AdminPage store={store} />;
     case 'privacy': return <PrivacyPage store={store} />;
+    case 'terms': return <TermsPage store={store} />;
     default: return <LandingPage store={store} />;
   }
 }

@@ -70,6 +70,7 @@ export default function LandingPage({ store }: { store: AppStore }) {
           <span className="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded font-medium">Maturity</span>
         </div>
         <div className="flex items-center gap-4">
+          <button onClick={() => store.setPage('terms')} className="text-sm text-gray-500 hover:text-gray-900">Terms</button>
           <button onClick={() => store.setPage('privacy')} className="text-sm text-gray-500 hover:text-gray-900">Privacy</button>
           <button onClick={() => store.setPage('login')} className="text-sm border border-gray-300 px-4 py-1.5 rounded hover:bg-gray-50">Sign in</button>
           <button onClick={() => store.setPage('login')} className="text-sm bg-blue-700 text-white px-4 py-1.5 rounded hover:bg-blue-800">Get started</button>
@@ -193,6 +194,7 @@ export default function LandingPage({ store }: { store: AppStore }) {
       <footer className="border-t border-gray-200 px-6 py-8 text-sm text-gray-500 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="font-semibold text-gray-700">AIGov Maturity</div>
         <div className="flex gap-6">
+          <button onClick={() => store.setPage('terms')} className="hover:text-gray-900">Terms &amp; Conditions</button>
           <button onClick={() => store.setPage('privacy')} className="hover:text-gray-900">Privacy Policy</button>
           <button onClick={() => store.setPage('login')} className="hover:text-gray-900">Sign In</button>
         </div>
