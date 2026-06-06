@@ -110,7 +110,7 @@ export default function PrivacyPage({ store }: { store: AppStore }) {
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-2">
               <p className="font-medium">AIGov Maturity</p>
               <p>Privacy Officer</p>
-              <p className="text-blue-700">privacy@aigov.co.nz</p>
+              <p className="text-blue-700">info@aigov.co.nz</p>
             </div>
           </Section>
         </div>
