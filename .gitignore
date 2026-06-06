@@ -14,6 +14,16 @@ dist-ssr
 
 bundle.html
 .parcel-cache
+.parcelrc
+
+# Claude / project docs (local only)
+CLAUDE.md
+.claude/
+*.docx
+
+# Boilerplate assets not used in the app
+src/assets/react.svg
+src/assets/vite.svg
 
 # Editor directories and files
 .vscode/*
