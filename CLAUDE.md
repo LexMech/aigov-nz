@@ -119,7 +119,8 @@ Configured in Admin Panel → Membership Tiers tab. Defaults:
 - [ ] Fetch and replace privacy policy from aigov.co.nz/wp/privacy-policy/
 - [ ] Add Terms & Conditions page (source: aigov.co.nz/wp/terms-and-conditions/)
 - [ ] Integrate HTML results page design (spider chart, previous comparison, benchmark toggles)
-- [ ] Set up GitHub repo + GitHub Pages deployment
+- [ ] Set up GitHub repo (name: aigov-nz) + GitHub Pages deployment
+- [ ] Point aigov.co.nz domain to GitHub Pages (DNS CNAME + custom domain config)
 - [ ] Aesthetic refinement pass (reference: start.aigov.co.nz Gamma version)
 - [ ] Conditional logic in question builder (planned feature)
 - [ ] "Compare vs previous result" (premium feature, planned)
