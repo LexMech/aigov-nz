@@ -41,6 +41,15 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        brand: {
+          blue: '#3B52E0',
+          'blue-dark': '#2D40C0',
+          'blue-light': '#EEF1FD',
+        },
+      },
+      fontFamily: {
+        serif: ['Crimson Pro', 'Georgia', 'serif'],
+        sans: ['Heebo', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
