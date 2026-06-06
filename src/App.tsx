@@ -6,6 +6,7 @@ import ResultsPage from './pages/ResultsPage';
 import AdminPage from './pages/AdminPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
+import PricingPage from './pages/PricingPage';
 
 function App() {
   const store = useAppStore();
@@ -18,6 +19,7 @@ function App() {
     case 'admin': return <AdminPage store={store} />;
     case 'privacy': return <PrivacyPage store={store} />;
     case 'terms': return <TermsPage store={store} />;
+    case 'pricing': return <PricingPage store={store} />;
     default: return <LandingPage store={store} />;
   }
 }
