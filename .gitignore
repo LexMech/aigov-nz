@@ -20,6 +20,7 @@ bundle.html
 CLAUDE.md
 .claude/
 *.docx
+claude skills/
 
 # Boilerplate assets not used in the app
 src/assets/react.svg
