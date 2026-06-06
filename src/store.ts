@@ -30,9 +30,9 @@ export function useAppStore() {
 
   // Demo users
   const DEMO_USERS: User[] = [
-    { id: 'admin1', email: 'admin@aigov.com', name: 'Admin User', tier: 'admin', joinedAt: new Date() },
-    { id: 'pro1', email: 'pro@example.com', name: 'Pro User', tier: 'professional', joinedAt: new Date() },
-    { id: 'basic1', email: 'basic@example.com', name: 'Basic User', tier: 'basic', joinedAt: new Date() },
+    { id: 'admin1', email: 'admin@aigov.co.nz', name: 'Admin User', tier: 'admin', joinedAt: new Date() },
+    { id: 'pro1', email: 'pro@aigov.co.nz', name: 'Pro User', tier: 'professional', joinedAt: new Date() },
+    { id: 'basic1', email: 'basic@aigov.co.nz', name: 'Basic User', tier: 'basic', joinedAt: new Date() },
   ];
 
   const TRIAL_CODES = ['TRIAL2024', 'GOVPILOT', 'FREESTARTER'];

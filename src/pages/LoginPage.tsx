@@ -17,7 +17,7 @@ export default function LoginPage({ store }: { store: AppStore }) {
     if (store.login(email, password)) {
       store.setPage('assessment');
     } else {
-      setError('Invalid credentials. Try: admin@aigov.com / demo123');
+      setError('Invalid credentials. Try: admin@aigov.co.nz / demo123');
     }
   }
 
@@ -36,9 +36,9 @@ export default function LoginPage({ store }: { store: AppStore }) {
   }
 
   const demoAccounts = [
-    { label: 'Admin', email: 'admin@aigov.com', password: 'demo123' },
-    { label: 'Professional', email: 'pro@example.com', password: 'demo123' },
-    { label: 'Basic', email: 'basic@example.com', password: 'demo123' },
+    { label: 'Admin', email: 'admin@aigov.co.nz', password: 'demo123' },
+    { label: 'Professional', email: 'pro@aigov.co.nz', password: 'demo123' },
+    { label: 'Basic', email: 'basic@aigov.co.nz', password: 'demo123' },
   ];
 
   return (
