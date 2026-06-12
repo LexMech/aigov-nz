@@ -22,6 +22,7 @@ CLAUDE.md
 *.docx
 *.pdf
 claude skills/
+docx-tmp/
 
 # Boilerplate assets not used in the app
 src/assets/react.svg
